@@ -1,12 +1,17 @@
-# monography_test
-This repository contains additional materials for monography ...
-You have 3 options
-- clone this repository and use your own execution environment to run python code
-- clone this repository, download prepared execution environment and run this code using jupyter notebook
-- use web jupyter notebook to view examples from the monograph
+# monograph_test
+This repository contains additional materials for monograph "..."  
+You have 2 options:
+- clone this repository and use your own execution environment to run code
+- clone this repository, download prepared execution environment built using jupyter notebook and run this code
 
-## You can download execution environment for this source code by the following link
-https://download-environment.com
+# Instruction for 2nd option
+Environment supports 32bit and 64bit versions of Windows 10 and web-browsers Firefox, Chrome, Safari.  
+To unpack environment archive you should have installed 7z or WinRAR tool in your system
 
-## You can open web jupyter notebook by the following link
-https://demo-jupyter-notebook.com
+### Download execution environment from the following link
+[Download environment](https://drive.google.com/file/d/1kiq_l-r7EfCqmrfZKh_yAmi4dLfqbDKp/view?usp=sharing)
+
+After you downloaded archive unpack it in any directory on your computer.  
+Copy notebook (file with .ipynb extension) from this repository into "notebooks" directory inside environmetn path.  
+Run batch file "run_jupyter_lab.bat" from environment directory.  
+Jupyter lab will open in your browser. Select desired notebook in the left side of the page.
