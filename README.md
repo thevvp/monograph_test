@@ -12,6 +12,6 @@ To unpack environment archive you should have installed 7z or WinRAR tool in you
 [Download environment](https://drive.google.com/file/d/1kiq_l-r7EfCqmrfZKh_yAmi4dLfqbDKp/view?usp=sharing)
 
 After you downloaded archive unpack it in any directory on your computer.  
-Copy notebook (file with .ipynb extension) from this repository into "notebooks" directory inside environmetn path.  
+Copy notebook (file with .ipynb extension) and directory "data" from this repository into "notebooks" directory inside environmetn path.  
 Run batch file "run_jupyter_lab.bat" from environment directory.  
 Jupyter lab will open in your browser. Select desired notebook in the left side of the page.
