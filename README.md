@@ -8,6 +8,9 @@ You have 2 options:
 Environment supports 32bit and 64bit versions of Windows 10 and web-browsers Firefox, Chrome, Safari.  
 To unpack environment archive you should have installed 7z or WinRAR tool in your system
 
+### Cloning repository as zip archive
+![Clone repo help image](https://i.ibb.co/z5GdVDV/clone-repo.png)
+
 ### Download execution environment from the following link
 [Download environment](https://drive.google.com/file/d/1kiq_l-r7EfCqmrfZKh_yAmi4dLfqbDKp/view?usp=sharing)
 
