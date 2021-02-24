@@ -28,12 +28,10 @@ All txt files should be placed in *txt_data* directory. Directory *txt_data* sho
 Program expects txt files with next format. Each column of file contains one spectrum. Columns separated with comma sign *,*. Values are represented in E-notation.  
 ![Txt data format image](ReadMePics/txt_data_format.png)  
   
-Example
+Example  
 2.4e-04,3.2e-04, ... 4.2e-04  
 2.3e-04,3.2e-04, ... 4.4e-04  
-  
 ...
-  
 2.3e-04,3.1e-04, ... 4.1e-04  
 
 ## Format of npy file
