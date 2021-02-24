@@ -5,7 +5,7 @@ You have 2 options:
 - clone this repository, download prepared execution environment built using jupyter notebook and run this code
 
 # Instruction for 2nd option
-Environment supports 32bit and 64bit versions of Windows 10 and web-browsers Firefox, Chrome, Safari.  
+Environment supports **only** 32bit and 64bit versions of Windows 10 and web-browsers Firefox, Chrome, Safari.  
 To unpack environment archive you should have installed 7z or WinRAR tool in your system
 
 ### Cloning repository as zip archive
