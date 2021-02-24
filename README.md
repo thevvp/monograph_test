@@ -31,7 +31,7 @@ Program expects txt files with next format. Each column of file contains one spe
 Example  
 2.4e-04,3.2e-04, ... 4.2e-04  
 2.3e-04,3.2e-04, ... 4.4e-04  
-...
+...  
 2.3e-04,3.1e-04, ... 4.1e-04  
 
 ## Format of npy file
