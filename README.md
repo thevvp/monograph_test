@@ -27,14 +27,8 @@ If you have data in txt format you can convert it to npy format with *Converter.
 All txt files should be placed in *txt_data* directory. Directory *txt_data* should be placed in the same directory as *Converter.ipynb* 
 notebook. One file contains all spectra of one class. Program expects txt files with next format. Each column of file contains one spectrum. 
 Columns separated with comma sign *,*. Values are represented in E-notation. Scheme of txt file, containing N spectra where each spectrum contains 
-R frequencies, shown below  
+R frequencies, shown below.  
 ![txt data format image](ReadMePics/txt_data_format.png)  
-  
-### Example of txt file
-2.4e-04,3.2e-04, ... 4.2e-04  
-2.3e-04,3.2e-04, ... 4.4e-04  
-...  
-2.3e-04,3.1e-04, ... 4.1e-04  
 
 ## Format of npy files
 Program expects two files *data.npy* and *labels.npy* placed in *bin_data* directory. 
