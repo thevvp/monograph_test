@@ -24,11 +24,13 @@ This program allow you to pas data only in files with *.npy* extension.
 If you have data in txt format you can convert it to npy format with *Converter.ipynb* and after pas your converted data to any example.  
 
 ## Format of txt file
-All txt files should be placed in *txt_data* directory. Directory *txt_data* should be placed in the same directory as *Converter.ipynb* notebook. One file contains all spectra of one class.  
-Program expects txt files with next format. Each column of file contains one spectrum. Columns separated with comma sign *,*. Values are represented in E-notation.  
-![Txt data format image](ReadMePics/txt_data_format.png)  
+All txt files should be placed in *txt_data* directory. Directory *txt_data* should be placed in the same directory as *Converter.ipynb* 
+notebook. One file contains all spectra of one class. Program expects txt files with next format. Each column of file contains one spectrum. 
+Columns separated with comma sign *,*. Values are represented in E-notation. Scheme of txt file, containing N spectra where each spectrum contains 
+R frequencies, shown below  
+![txt data format image](ReadMePics/txt_data_format.png)  
   
-### Example  
+### Example of txt file
 2.4e-04,3.2e-04, ... 4.2e-04  
 2.3e-04,3.2e-04, ... 4.4e-04  
 ...  
@@ -39,3 +41,5 @@ Program expects two files *data.npy* and *labels.npy* placed in *bin_data* direc
 File *data.npy* is a two-dimensional array where each row contains one spectrum. Spectra of all classes 
 placed in *data.npy* file. File *labels.npy* is a one-dimensional array contains labels for each spectrum in *data.npy*. 
 Number of labels equals to number of spectra. So length of *labels* array equals to number of rows in *data.npy* matrix.
+![npy data format image](ReadMePics/npy_data_format.png)  
+![npy labels format image](ReadMePics/npy_labels_format.png)  
