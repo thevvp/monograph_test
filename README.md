@@ -28,10 +28,14 @@ All txt files should be placed in *txt_data* directory. Directory *txt_data* sho
 Program expects txt files with next format. Each column of file contains one spectrum. Columns separated with comma sign *,*. Values are represented in E-notation.  
 ![Txt data format image](ReadMePics/txt_data_format.png)  
   
-Example  
+### Example  
 2.4e-04,3.2e-04, ... 4.2e-04  
 2.3e-04,3.2e-04, ... 4.4e-04  
 ...  
 2.3e-04,3.1e-04, ... 4.1e-04  
 
-## Format of npy file
+## Format of npy files
+Program expects two files *data.npy* and *labels.npy* placed in *bin_data* directory. 
+File *data.npy* is a two-dimensional array where each row contains one spectrum. Spectra of all classes 
+placed in *data.npy* file. File *labels.npy* is a one-dimensional array contains labels for each spectrum in *data.npy*. 
+Number of labels equals to number of spectra. So length of *labels* array equals to number of rows in *data.npy* matrix.
